@@ -1,0 +1,1615 @@
+/*page-1*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantParentCommunity</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <header>
+        <a  class="he" href="newpage.html">&#9776;</a>
+        <span class="he" id="logo">PlantParentCommunity</span>
+        <nav>
+          <ul>
+              <li><a href="newpage2.html"><img src="https://cdn-icons-png.flaticon.com/128/10385/10385257.png"></a></li>
+              <li class="dropdown">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/456/456212.png"></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Log in</a></li>
+                    <li><a id="signup" href ="newpage3.html">Sign up</a></li>
+                </ul>
+            </li>
+              <li><a href="newpage5.html"><img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png"></a></li>
+          </ul>
+        </nav>
+  </header>
+  <hr>
+  <section class="s1">
+       <pre> 
+            Dear Plant parent,
+        Please stop killing your plants!         
+       </pre>
+       <h2>Find care on PlantParentCommunity</h2>
+       <button class="btn-1">Call a Plant doctor today</button>
+  </section>
+  <div class="container">
+        <div class="box-1">
+             <img  id="i1" src="https://5.imimg.com/data5/SELLER/Default/2024/12/477091520/WG/NQ/WX/95481437/tree-plantation-services-500x500.jpg">
+             <p class="p1">How to Seeding & Early Growth?</p>
+        </div>
+
+        <div class="box-2">
+            <img id="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShjNdGnU_YW-Rk3DMcmSIS_N_VMBJSNkiqQ8klmlHmmv_kXvbT5HBvR7JNVcmHAoiFz0k&usqp=CAU">
+            <p class="p2">How to Developing & Strengthening?</p>
+        </div>
+        <div class="box-3">
+          <img id="i3" src="https://5.imimg.com/data5/TR/QY/UH/ANDROID-105898574/product-jpeg-250x250.jpg">
+          <p class="p3">How to Florishing Sustaining?</p>
+        </div>
+  </div>
+  <footer class="ff">
+    <span>
+      <img  id="i4" src="https://cdn-icons-png.flaticon.com/128/3209/3209899.png">
+      <p class="p4">Stay in touch with your plant community!</p>
+    </span>
+    <p class="p5">Email:Plant@Community.co</p>
+    <br>
+    <p class="p6">Subscribe to our newsletter for plant lovers;crafted with sun & Water,and zero spam.</p>
+    <a href="newpage6.html" class="btn-2">SUBSCRIBE</a>
+    <br>
+    <span>
+      <p class="p7">PlantParentCommunity</p>
+      <img class="k" id="i5"   src="https://cdn-icons-png.flaticon.com/128/174/174848.png">
+      <img class="k" id="i6"   src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png">
+      <img class="k" id="i7"   src="https://cdn-icons-png.flaticon.com/128/1383/1383260.png">
+    </span>
+  </footer>
+</body>
+</html>
+/*page-1-Style-Sheet*/
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url(https://media.istockphoto.com/id/1147472170/photo/hand-with-water-can-watering-indoor-plants-on-windowsill.jpg?s=612x612&w=0&k=20&c=ebhi3cBpN-2mdq7x2a_U1VcI6sdZ2uhJDv38Z0AJuYM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.he{
+    margin:2px;  
+}
+#logo{
+    margin:5px 8px;
+    font-size: 100px;
+    font-family: 'Irish Grover',cursive;
+    color:#5b6d51;
+    font-style: bold;
+    font-weight: bolder;
+}
+ul{
+    margin-left: 1000px;
+    display: flex;
+    list-style: none; 
+}
+li{
+    justify-items: right;
+    margin:-15px -130px;
+    font-size: 100px;
+    list-style: none;
+    display: inline;
+}
+a{
+    margin:-104px 130px;
+    font-size:100px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+img{
+    color:black;
+    margin:5px 15px;
+}
+hr{
+    width:100%;
+    height: 2px;
+    background-color:#5b6d51;
+    border: 2px solid #5b6d51;
+    font-weight: 4;
+    margin:-20px 0px;
+}
+.dropdown { 
+    position: relative;
+    color: black;
+} 
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    right: 0; 
+    background: white; 
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    height: 300px;
+    width: 120px;
+    color:black;
+    width: 600%;
+    border: 5px solid black;
+} 
+.dropdown-menu a { 
+    display: block; 
+    padding: 10px;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    text-align: right; 
+    font-family:"Irish grover",cursive ;
+    margin-top: -130px;
+    margin-right: 80px;
+} 
+.dropdown-menu a:hover { 
+    background: #ddd;
+    color: black; 
+}  
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+    color: black;
+}
+#signup{
+    margin-top: -30px;
+}
+pre{
+    font-size: 62px;
+    color:black;
+    margin:-55px 560px;
+}
+h2{
+    font-family: 'Inder',sans-serif;
+   font-size: 50px;
+   color: black;
+   margin:0px 600px;
+   text-align: center;
+}
+.btn-1{
+    font-family: 'Inder',sans-serif;
+    font-style: bold;
+    color: black;
+    background-color: #B2571A;
+    border-radius: 12px;
+    height: 100px;
+    width: 30%;
+    margin:22px 910px;
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid black;
+}
+.btn-1:hover{
+    background-color:transparent;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    margin: 0px 300px;
+}
+.box-1{
+    background-color: #A0C29D;
+    height: 425px;
+    border-radius: 12px;
+    border: 6px solid #B2571A;
+    margin:0px 0px;
+    width:40%;   
+}
+#i1{
+    border-radius: 3px;
+    border: 3px solid black;
+    height:340px;   
+}
+.p1{
+    font-family: "Inria Serif",serif;
+    font-size: 32px;
+    font-style: bold;
+    color:black;
+    margin:0px;
+    text-align: center;
+}
+.box-2{
+    width:45%;
+    background-color: #A0C29D;
+    height: 425px;
+    border-radius: 12px;
+    border: 6px solid #B2571A;
+    margin:0px 250px;
+}
+#i2{
+    border-radius: 3px;
+    border: 3px solid black;
+    height:340px;
+    width: 93%;
+}
+.p2{
+    font-family: "Inria Serif",serif;
+    font-size: 32px;
+    font-style: bold;
+    color:black;
+    margin:0px;
+    text-align: center;
+}
+.box-3{
+    width:40%;
+    background-color: #A0C29D;
+    height: 425px;
+    border-radius: 12px;
+    border: 6px solid #B2571A;
+    margin:0px 0px;
+}
+#i3{
+    width: 93%;
+    border-radius: 3px;
+    border: 3px solid black;
+    height:340px;
+}
+.p3{
+    font-family: "Inria Serif",serif;
+    font-size: 32px;
+    font-style: bold;
+    color:black;
+    margin:0px;
+    text-align: center;
+}
+.ff{
+    display: flex;
+    position: fixed;
+    margin-top: 24px;
+    height: 290px;
+    margin-bottom: 0px;
+    background-color: #F2DCC5;
+    width:100%;
+}
+#i4{
+    background-color: transparent;
+      height: 50px;
+      color: #5b6d51;   
+  }
+.p4{
+    margin:-70px 70px;
+    font-size: 60px;
+    position: fixed;
+    color:#B2571A;
+    font-family: "Rowdies",sans-serif;
+    font-style: bold;
+    font-weight: bolder;
+}
+.p5{
+    margin-left: 2240px;
+    margin-top: 0px;
+    font-size: 32px;
+    font-style: bold;
+    font-family: "Rosario",sans-serif;
+}
+.p6{
+    margin-top:80px;
+    margin-left: 16px;
+    font-size: 32px;
+    position: fixed;
+    font-family: "Rosarivo",serif;   
+}
+.btn-2{
+    font-family: "Rowdies",sans-serif;
+    position: absolute;
+    height: 52px;
+    border-radius: 12px;
+    width:15%;
+    margin-top: 142px;
+    margin-left: 1100px;
+    font-size: 47px;
+    color: white;
+    background-color: #B2571A;
+    text-align: center;
+}
+.btn-2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.p7{
+    margin-top: 200px;
+    margin-left: -600px;
+    font-size: 35px;
+    position: absolute;
+    font-style: bold;
+    color: #5b6d51;
+    font-family: 'Irish Grover',sans-serif;
+    font-weight: bolder;
+}
+#i5{
+    margin-top: 190px;
+    margin-left: -210px;
+    height: 60px;
+    position: fixed;
+}
+#i6{
+    margin-top: 190px;
+    margin-left: -140px;
+    height: 60px;
+    position: fixed;
+}
+#i7{
+    margin-top: 190px;
+    margin-left: 345px;
+    height: 60px;
+    right:0px;
+    position: fixed;
+}
+/*page-2*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantParentCommunity</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding:0px;
+        background-color: #E1BE98;
+    }
+    p{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 100px;
+        color: black;
+        margin-top: 10px;
+    }
+    h1{
+        margin-left:  1900px;
+        margin-top: -190px;
+        font-size: 62px;
+    }
+    li{
+        list-style: none;
+        font-size: 42px;
+        font-weight: bold;
+        font-family: "Itim",cursive;
+        margin-left: 300px;
+        margin-top: 5px;
+    }
+    hr{
+        width: 70%;
+        color: black;
+        margin-left: 280px;
+        background-color: black;
+        border: 1px solid black;
+    }
+    .dropdown-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color:transparent;
+        margin-top:-45px ;
+        margin-left: 1305px;
+    }
+    .language-select{
+        border: 5px solid black;
+        font-size: 20px;
+        padding: 8px 16px;
+        background-color: transparent;
+        cursor: pointer;
+        border-radius: 13px;
+        text-align: center;
+        width: 200px;
+        margin-left:-150px ;
+        font-weight: bolder;
+    }
+    .language-select::after{
+        content: "▼";
+        font-size: 12px;
+        
+    }
+    .language-select:hover{
+        background-color: #f5f5f5;
+    }
+    h2{
+        margin-top: -80px;
+        margin-left: 1700px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+</style>
+<body>
+    <span><p>PlantParentCommunity <a href="ASSIGNMENT.html"><h1>&#10006;</h1></a></p></span>
+    <ul>
+        <li>Select Language
+            <span class="dropdown-container">
+            <select class="language-select">   
+            <option value="en">EN</option>
+            <option value="guj">GUJ</option>
+            <option value="hi">HINDI</option>
+        </select>
+    </span>
+        </li><hr>
+        <span>
+        <li>Services<h2>></h2></li><hr>
+        <li>Workshops<h2>></h2></li><hr>
+        <li>Community<h2>></h2></li><hr>
+        <li>Plant Doctor<h2>></h2></li><hr>
+        <li>Join the Community<h2>></h2></li><hr>
+        <li>Blog<h2>></h2></li><hr>
+        <li>For Business<h2>></h2></li><hr>
+    </span>
+</body>
+</html>
+/*page-3*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantParentCommunity</title>
+</head>
+<style>
+body{
+        background-color: grey;
+        margin: 0%;
+        padding: 0%;
+    }
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url(https://media.istockphoto.com/id/1147472170/photo/hand-with-water-can-watering-indoor-plants-on-windowsill.jpg?s=612x612&w=0&k=20&c=ebhi3cBpN-2mdq7x2a_U1VcI6sdZ2uhJDv38Z0AJuYM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+}
+#logo{
+    margin:5px 8px;
+    font-size: 100px;
+    font-style: bold;
+    font-family: 'Irish Grover',cursive;
+    font-weight: bolder;
+    color:#5b6d51;   
+}
+.he{
+    margin:2px;
+}
+ul{
+    margin-left: 1000px;
+    display: flex;
+    list-style: none; 
+}
+li{
+    justify-items: right;
+    margin:-15px -130px;
+    font-size: 100px;
+    list-style: none;
+    display: inline;
+}
+a{
+    margin:-104px 130px;
+    font-size:100px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+img{
+    color:black;
+    margin:5px 15px; 
+}
+hr{
+    width:100%;
+    height: 2px;
+    background-color:#5b6d51;
+    border: 2px solid #5b6d51;
+    margin:-20px 0px;
+}
+#searchOverlay{
+        width:100%;
+        height:150px;
+        background-color:white;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        margin-top: 300px;
+        z-index: 999;
+        position: relative;
+    }
+#k{
+        width:90%;
+        height: 130px;
+        background-color: rgba(151, 165, 165, 0.568);
+        margin-top: 0px;
+        margin-left: 100px;
+        border-radius: 10px;
+        border: none;
+        font-size: 32px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+#se{
+        background-color: none;
+        border: none;
+        margin:2px;
+    }
+pre{
+    font-size: 62px;
+    color:black;
+    margin:-263px 560px;
+    position: absolute;
+}
+h2{
+   font-size: 50px;
+   color: black;
+   margin:-245px 600px;
+   text-align: center;
+   font-family: "Inder",sans-serif;
+}
+.container{
+    display: flex;
+    margin: 330px 300px;
+    position: relative;
+}
+.box-1{
+    background-color:#5b6d51;
+    height: 425px;
+    border-radius: 12px;
+    border: 6px solid #B2571A;
+    margin:0px 0px;
+    width:40%;    
+}
+#i1{
+    border-radius: 3px;
+    border: 3px solid black;
+    height:340px;    
+}
+.p1{
+    font-family: "Inria",serif;
+    font-size: 32px;
+    font-style: bold;
+    color:black;
+    margin:0px;
+    text-align: center;
+}
+.box-2{
+    width:45%;
+    background-color: #5b6d51;
+    height: 425px;
+    border-radius: 12px;
+    border: 6px solid #B2571A;
+    margin:0px 250px;
+}
+#i2{
+    border-radius: 3px;
+    border: 3px solid black;
+    height:340px;
+    width: 93%;
+}
+.p2{
+    font-family: "Inria",serif;
+    font-size: 32px;
+    font-style: bold;
+    color:black;
+    margin:0px;
+    text-align: center;
+}
+.box-3{
+    width:40%;
+    background-color: #5b6d51;
+    height: 425px;
+    border-radius: 12px;
+    border: 6px solid #B2571A;
+    margin:0px 0px;
+}
+#i3{
+    width: 93%;
+    border-radius: 3px;
+    border: 3px solid black;
+    height:340px;
+}
+.p3{
+    font-family: "Inria",serif;
+    font-size: 32px;
+    font-style: bold;
+    color:black;
+    margin:0px;
+    text-align: center;
+}
+.ff{
+    display: flex;
+    position: absolute;
+    margin-top: -280px;
+    height: 289px;
+    margin-bottom: 0px;
+    background-color: rgb(230, 209, 171);
+    width:100%;
+}
+#i4{
+    background-color: transparent;
+      height: 50px;
+      color: #5b6d51;   
+  }
+.p4{
+    margin:-70px 70px;
+    font-size: 60px;
+    position: fixed;
+    color:#B2571A;
+    font-family: "Rowdies",sans-serif;
+    font-style: bold;
+    font-weight: bolder;
+}
+.p5{
+    margin-left: 2240px;
+    margin-top: 0px;
+    font-size: 32px;
+    font-style: bold;
+    font-family: "Rosario",sans-serif;
+}
+.p6{
+    margin-top:80px;
+    margin-left: 16px;
+    font-size: 32px;
+    position: fixed;
+    font-family: "Rosarivo",serif;    
+}
+.btn-2{
+    position: absolute;
+    height: 52px;
+    border-radius: 12px;
+    width:15%;
+    margin-top: 142px;
+    margin-left: 1100px;
+    font-size: 47px;
+    font-style: bold;
+    color: white;
+    background-color: #B2571A;
+    text-align: center;
+    font-family: "Rowdies",sans-serif;
+}
+.btn-2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.p7{
+    margin-top: 200px;
+    margin-left: -600px;
+    font-size: 35px;
+    position: absolute;
+    font-style: bold;
+    color: #5b6d51;
+    font-family: "Irish Grover", cursive;
+    font-weight: bolder;
+}
+#i5{
+    margin-top: 190px;
+    margin-left: -210px;
+    height: 60px;
+    position: fixed;
+}
+#i6{
+    margin-top: 190px;
+    margin-left: -140px;
+    height: 60px;
+    position: fixed;
+}
+#i7{
+    margin-top: 190px;
+    margin-left: 345px;
+    height: 60px;
+    right:0px;
+    position: fixed;
+}  
+.dropdown { 
+    position: relative;
+    color: black;
+} 
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    right: 0; 
+    background: white; 
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    height: 300px;
+    width: 120px;
+    color:black;
+    width: 600%;
+    border: 5px solid black;
+} 
+.dropdown-menu a { 
+    display: block; 
+    padding: 10px;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    text-align: right; 
+    font-family:"Irish grover",cursive ;
+    margin-top: -130px;
+    margin-right: 80px;
+} 
+.dropdown-menu a:hover { 
+    background: #ddd;
+    color: black; 
+}  
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+    color: black;
+}
+#signup{
+    margin-top: -30px;
+    }
+</style>
+<body>
+    <header>
+        <a  class="he" href="newpage.html">&#9776;</a>
+        <span class="he" id="logo">PlantParentCommunity</span>
+        <nav>
+          <ul>
+              <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/128/10385/10385257.png"></a></li>
+              <li class="dropdown">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/456/456212.png"></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Log in</a></li>
+                    <li><a id="signup" href ="newpage3.html">Sign up</a></li>
+                </ul>
+            </li>
+              <li><a href="newpage5.html"><img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png"></a></li>
+          </ul>
+        </nav>
+  </header>
+  <hr>
+    <div id="searchOverlay">
+            <input id="k" type="text" placeholder="Search...">
+            <button id="se"><img src="https://cdn-icons-png.flaticon.com/128/10385/10385257.png"></button>
+    </div>
+    <section class="s1">
+       <pre> 
+            Dear Plant parent,
+        Please stop killing your plants!         
+       </pre>
+       <h2>Find care on PlantParentCommunity</h2>
+  </section>
+  <div class="container">
+        <div class="box-1">
+             <img  id="i1" src="https://5.imimg.com/data5/SELLER/Default/2024/12/477091520/WG/NQ/WX/95481437/tree-plantation-services-500x500.jpg">
+             <p class="p1">How to Seeding & Early Growth?</p>
+        </div>
+        <div class="box-2">
+            <img id="i2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShjNdGnU_YW-Rk3DMcmSIS_N_VMBJSNkiqQ8klmlHmmv_kXvbT5HBvR7JNVcmHAoiFz0k&usqp=CAU">
+            <p class="p2">How to Developing & Strengthening?</p>
+        </div>
+        <div class="box-3">
+          <img id="i3" src="https://5.imimg.com/data5/TR/QY/UH/ANDROID-105898574/product-jpeg-250x250.jpg">
+          <p class="p3">How to Florishing Sustaining?</p>
+        </div>
+  </div>
+    <footer class="ff">
+        <span>
+          <img  id="i4" src="https://cdn-icons-png.flaticon.com/128/3209/3209899.png">
+          <p class="p4">Stay in touch with your plant community!</p> 
+        </span>
+        <p class="p5">Email:Plant@Community.co</p>
+        <br>
+        <p class="p6">Subscribe to our newsletter for plant lovers;crafted with sun & Water,and zero spam.</p>
+        <a href="newpage6.html" class="btn-2">SUBSCRIBE</a>
+        <br>
+        <span>
+          <p class="p7">PlantParentCommunity</p>
+          <img class="k" id="i5"   src="https://cdn-icons-png.flaticon.com/128/174/174848.png">
+          <img class="k" id="i6"   src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png">
+          <img class="k" id="i7"   src="https://cdn-icons-png.flaticon.com/128/1383/1383260.png">
+        </span>
+      </footer>
+</body>
+</html>
+/*page-4*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantParentCommunity</title>
+</head>
+<style>
+    body{
+    margin:0px;
+    padding:0px;
+    background-image: url(https://media.istockphoto.com/id/1147472170/photo/hand-with-water-can-watering-indoor-plants-on-windowsill.jpg?s=612x612&w=0&k=20&c=ebhi3cBpN-2mdq7x2a_U1VcI6sdZ2uhJDv38Z0AJuYM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+}
+#logo{
+    margin:5px 8px;
+    font-size: 100px;
+    font-style: bold;
+    font-family: 'Irish Grover',cursive;
+    font-weight: bolder;
+    color:#5b6d51;    
+}
+.he{
+    margin:2px;
+}
+ul{
+    margin-left: 1000px;
+    display: flex;
+    list-style: none; 
+}
+li{
+    justify-items: right;
+    margin:-15px -130px;
+    font-size: 100px;
+    list-style: none;
+    display: inline;
+}
+a{
+    margin:-104px 130px;
+    font-size:100px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+img{
+    color:black;
+    margin:5px 15px;    
+}
+hr{
+    width:100%;
+    height: 2px;
+    background-color:#5b6d51;
+    border: 2px solid #5b6d51;
+    margin:-20px 0px;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+    color: black;
+    font-family: "Jost",sans-serif;
+}
+.btn-group{
+    display:flex;
+    margin-left: 600px;
+    width: 80%;
+    margin-bottom: 15px;
+    height: 200px;
+}
+button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: "Jeju Hallasan",cursive;
+}
+.buy{
+    background-color: #5b6d51;
+    color: white;
+    width: 40%;
+}
+.sell{
+    background-color:#EBEDDE;
+    color:black;
+    width: 40%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    width:60%;
+    margin-left: 600px;
+    height: 50px;
+}
+label{
+    margin-left: 600px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Jaldi",sans-serif;
+}
+#l{
+    margin-left: 680px;
+    margin-top:-53px ;
+}
+.checkbox{
+    margin-left: -170px;
+    margin-top: 25px;    
+}
+.checkbox input:checked{
+    background-color: #5b6d51;
+}
+.reg-btn{
+    font-size: 40px;
+    font-family: "Kavoon",cursive;
+    height: 100px;
+    margin-left: 600px;
+    width:60%;
+    background: #5b6d51;
+    color: white;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.reg-btn:hover{
+    background: #5b6d51;
+}
+.dropdown { 
+    position: relative;
+    color: black;
+} 
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    right: 0; 
+    background: white; 
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    height: 300px;
+    width: 120px;
+    color:black;
+    width: 600%;
+    border: 5px solid black;
+} 
+.dropdown-menu a { 
+    display: block; 
+    padding: 10px;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    text-align: right; 
+    font-family:"Irish grover",cursive ;
+    margin-top: -130px;
+    margin-right: 80px;
+} 
+.dropdown-menu a:hover { 
+    background: #ddd;
+    color: black; 
+}  
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+    color: black;
+}
+#signup{
+    margin-top: -30px;
+}
+</style>
+<body>
+    <header>
+        <a  class="he" href="newpage2.html">&#9776;</a>
+        <span class="he" id="logo">PlantParentCommunity</span>
+        <nav>
+          <ul>
+              <li><a href="newpage2.html"><img src="https://cdn-icons-png.flaticon.com/128/10385/10385257.png"></a></li>
+              <li class="dropdown">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/456/456212.png"></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Log in</a></li>
+                    <li><a id="signup" href ="newpage3.html">Sign up</a></li>
+                </ul>
+            </li>
+              <li><a href="newpage5.html"><img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png"></a></li>
+          </ul>
+        </nav>
+  </header>
+  <hr>
+  <h1>NEW CUSTOMER</h1>
+  <div class="btn-group">
+     <button class="buy">I WANT TO BUY</button>
+     <button class="sell" onclick="window.location.href='newpage4.html'">I WANT TO SELL</button>
+  </div>
+  <form>
+    <label>Email</label>
+    <input type="email" id="femail" email="email">
+    <label>Password</label>
+    <input type="password" id="fpss" password="password">
+    <label>Password Confirmation</label>
+    <input type="password-confirmation" id="fpc" password="password">
+    <input class="checkbox" type="checkbox">
+    <label id="l" for="Privacy-policy">I have Read and accept the Privacy Policy</label>
+    <button class="reg-btn">REGISTER</button>
+  </form>
+</body>
+</html>
+/*page-5*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>PlantParentCommunity</title>
+</head>
+<style>
+    body{
+    margin:0px;
+    padding:0px;
+    background-image: url(https://media.istockphoto.com/id/1147472170/photo/hand-with-water-can-watering-indoor-plants-on-windowsill.jpg?s=612x612&w=0&k=20&c=ebhi3cBpN-2mdq7x2a_U1VcI6sdZ2uhJDv38Z0AJuYM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+}
+#logo{
+    margin:5px 8px;
+    font-size: 100px;
+    font-style: bold;
+    font-family: 'Irish Grover',cursive;
+    font-weight: bolder;
+    color:#5b6d51;    
+}
+.he{
+    margin:2px;
+}
+ul{
+    margin-left: 1000px;
+    display: flex;
+    list-style: none; 
+}
+li{
+    justify-items: right;
+    margin:-15px -130px;
+    font-size: 100px;
+    list-style: none;
+    display: inline;
+}
+a{
+    margin:-104px 130px;
+    font-size:100px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+img{
+    color:black;
+    margin:5px 15px;    
+}
+hr{
+    width:100%;
+    height: 2px;
+    background-color:#5b6d51;
+    border: 2px solid #5b6d51;
+    margin:-20px 0px;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+    color: black;
+    font-family: "Jost",sans-serif;
+}
+.btn-group{
+    display:flex;
+    margin-left: 600px;
+    width: 80%;
+    margin-bottom: 15px;
+    height: 200px;
+}
+button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: "Jeju Hallasan",sans-serif;
+}
+.buy{
+    background-color: #EBEDDE;
+    color: black;
+    width: 40%;
+}
+.sell{
+    background-color:#5b6d51;
+    color: white;
+    width: 40%;
+}
+.sell2{
+    height: 600px;
+}
+.pop{
+    background:linear-gradient(180deg,#B7BE85 0%,#9CA171 62%,#55583E 100%);
+    color:black;
+    font-size: 40px;
+    height: 350px;
+    width:64%;
+    margin-left: 600px;
+    font-family: "IM FELL Great Primer SC",serif;
+}
+.k{
+    margin-top: 115px;
+    margin-left: 210px;
+}
+.time-info{
+    margin-bottom: 0px;
+    margin-left: 600px;
+    background-color: #EBEDDE;
+    width: 64%;
+    height: 200px;
+    margin-top: -40px;
+    text-align: center;
+    color:#E45F5F;
+    font-family: "Abhaya Libre",serif;
+    font-size: 40px;
+}
+.tell-us{
+    display: flex;
+    margin-left: 1160px;
+    color: white;
+    justify-content: center;
+    width:30%;
+    margin-top: -130px;
+    background-color: #5b6d51;
+    border-radius: 10px;
+    font-family: "Aclonia", sans-serif;
+}
+.tell-us:hover{
+    background-color: white;
+    color:black;
+}
+.dropdown { 
+    position: relative;
+    color: black;
+} 
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    right: 0; 
+    background: white; 
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    height: 300px;
+    width: 120px;
+    color:black;
+    width: 600%;
+    border: 5px solid black;
+} 
+.dropdown-menu a { 
+    display: block; 
+    padding: 10px;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    text-align: right; 
+    font-family:"Irish grover",cursive ;
+    margin-top: -130px;
+    margin-right: 80px;
+} 
+.dropdown-menu a:hover { 
+    background: #ddd;
+    color: black; 
+}  
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+    color: black;
+}
+#signup{
+    margin-top: -30px;
+}
+</style>
+<body>
+    <header>
+        <a  class="he" href="newpage.html">&#9776;</a>
+        <span class="he" id="logo">PlantParentCommunity</span>
+        <nav>
+          <ul>
+              <li><a href="newpage2.html"><img src="https://cdn-icons-png.flaticon.com/128/10385/10385257.png"></a></li>
+              <li class="dropdown">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/456/456212.png"></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Log in</a></li>
+                    <li><a id="signup" href ="newpage3.html">Sign up</a></li>
+                </ul>
+            </li>
+              <li><a href="newpage5.html"><img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png"></a></li>
+          </ul>
+        </nav>
+  </header>
+  <hr>
+  <h1>NEW CUSTOMER</h1>
+  <div class="btn-group">
+    <button class="buy" onclick="window.location.href='newpage3.html'">I WANT TO BUY</button>
+    <button class="sell">I WANT TO SELL</button>
+ </div>
+ <div class="sell2">
+    <pre class="pop">
+        <pre class="k">
+          Would You Like To Sell Your Plants
+            And Garden Accessories With 
+              PlantParentCommunity? 
+            </pre>   
+    </pre>
+    <p class="time-info">Takes 3 minutes</p>
+    <button class="tell-us">Tell Us</button>
+ </div>
+</body>
+</html>
+/*page-6*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>PlantParentCommunity</title>
+</head>
+<style>
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url(https://media.istockphoto.com/id/1147472170/photo/hand-with-water-can-watering-indoor-plants-on-windowsill.jpg?s=612x612&w=0&k=20&c=ebhi3cBpN-2mdq7x2a_U1VcI6sdZ2uhJDv38Z0AJuYM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+}
+.he{
+    margin:2px;    
+}
+#logo{
+    margin:5px 8px;
+    font-size: 100px;
+    font-family: 'Irish Grover',cursive;
+    color:#5b6d51;
+    font-style: bold;
+    font-weight: bolder;
+}
+nav{
+    margin-left: 40px;
+}
+ul{
+    margin-left: 1000px;
+    display: flex;
+    list-style: none; 
+}
+li{
+    justify-items: right;
+    margin:-15px -130px;
+    font-size: 100px;
+    list-style: none;
+    display: inline;
+}
+a{
+    margin:-104px 130px;
+    font-size:100px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+img{
+    color:black;
+    margin:5px 15px;   
+}
+hr{
+    width:100%;
+    height: 2px;
+    background-color:#5b6d51;
+    border: 2px solid #5b6d51;
+    font-weight: 4;
+    margin:-20px 0px;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+}
+.ff{
+    display: flex;
+    position: fixed;
+    margin-top: 833px;
+    height: 290px;
+    margin-bottom: 0px;
+    background-color: #F2DCC5;
+    width:100%;
+}
+#i4{
+    background-color: transparent;
+      height: 50px;
+      color: #5b6d51;   
+  }
+.p4{
+    margin:-70px 70px;
+    font-size: 60px;
+    position: fixed;
+    color:#B2571A;
+    font-family: "Rowdies",sans-serif;
+    font-style: bold;
+    font-weight: bolder;
+}
+.p5{
+    margin-left: 2240px;
+    margin-top: 0px;
+    font-size: 32px;
+    font-style: bold;
+    font-family: "Rosario",sans-serif;
+}
+.p6{
+    margin-top:80px;
+    margin-left: 16px;
+    font-size: 32px;
+    position: fixed;
+    font-family: "Rosarivo",serif;    
+}
+.btn-2{
+    font-family: "Rowdies",sans-serif;
+    position: absolute;
+    height: 52px;
+    border-radius: 12px;
+    width:15%;
+    margin-top: 142px;
+    margin-left: 1100px;
+    font-size: 47px;
+    color: white;
+    background-color: #B2571A;
+    text-align: center;
+}
+.btn-2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.p7{
+    margin-top: 200px;
+    margin-left: -600px;
+    font-size: 35px;
+    position: absolute;
+    font-style: bold;
+    color: #5b6d51;
+    font-family: 'Irish Grover',sans-serif;
+    font-weight: bolder;
+}
+#i5{
+    margin-top: 190px;
+    margin-left: -210px;
+    height: 60px;
+    position: fixed;
+}
+#i6{
+    margin-top: 190px;
+    margin-left: -140px;
+    height: 60px;
+    position: fixed;
+}
+#i7{
+    margin-top: 190px;
+    margin-left: 345px;
+    height: 60px;
+    right:0px;
+    position: fixed;
+}
+.p11{
+    display: flex;
+    font-size: 40px;
+    font-family: "Abhaya Libre Medium",serif;
+    margin-top:-80px;
+}
+.p12{
+    font-size: 40px;
+    margin-left: 110px;
+    margin-top: -200px;
+    font-family: "Abhaya Libre Medium",serif;
+}
+#h23{
+    font-size: 64px;
+    color: #5b6d51;
+    margin-left: 150px;
+    font-weight: bolder;
+    font-family: "ADLam Display",sans-serif;    
+}
+.con{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+.p13{
+    font-size: 64px;
+    font-weight: bolder;
+    font-family: "Alegreya Sans Sc",sans-serif;
+}
+.btn-3{
+    background-color: #5b6d51;
+    color: white;
+    width: 40%;
+    height: 80px;
+    font-size: 50px;
+    border-radius: 10px;
+    border: none; 
+    font-family: "Alkalami",serif;   
+}
+.btn-3:hover{
+    background-color: #B2571A;
+}
+#i10{
+    margin-left: 1200px;
+    height: 150px;
+}
+.a1{
+    margin-top: 0px;
+}
+.dropdown { 
+    position: relative;
+    color: black;
+} 
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    right: 0; 
+    background: white; 
+    border-radius: 23px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    height: 300px;
+    width: 120px;
+    color:black;
+    width: 600%;
+    border: 5px solid black;
+} 
+.dropdown-menu a { 
+    display: block; 
+    padding: 10px;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    text-align: right; 
+    font-family:"Irish grover",cursive ;
+    margin-top: -130px;
+    margin-right: 80px;
+} 
+.dropdown-menu a:hover { 
+    background: #ddd;
+    color: black; 
+}  
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+    color: black;
+}
+#signup{
+    margin-top: -30px;
+}
+</style>
+<body>
+    <header>
+        <a  class="he" href="newpage.html">&#9776;</a>
+        <span class="he" id="logo">PlantParentCommunity</span>
+        <nav>
+          <ul>
+              <li><a href="newpage2.html"><img src="https://cdn-icons-png.flaticon.com/128/10385/10385257.png"></a></li>
+              <li class="dropdown">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/456/456212.png"></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Log in</a></li>
+                    <li><a id="signup" href ="newpage3.html">Sign up</a></li>
+                </ul>
+            </li>
+              <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png"></a></li>
+          </ul>
+        </nav>
+  </header>
+  <hr>
+  <section>
+  <a class="a1" href="ASSIGNMENT.html"><p class="p11">Home</p></a>
+  <p class="p12">/Shopping Cart</p>
+  <h1 id="h23">YOUR SHOPPING CART</h1>
+  <img id="i10" src="https://cdn-icons-png.flaticon.com/128/102/102661.png">
+  <span class="con">
+    <p class="p13">YOUR CART IS EMPTY</p>
+    <button class="btn-3">CONTINUE SHOPPING</button>
+  </span>
+</section>
+  <footer class="ff">
+    <span>
+      <img  id="i4" src="https://cdn-icons-png.flaticon.com/128/3209/3209899.png">
+      <p class="p4">Stay in touch with your plant community!</p>
+    </span>
+    <p class="p5">Email:Plant@Community.co</p><br>
+    <p class="p6">Subscribe to our newsletter for plant lovers;crafted with sun & Water,and zero spam.</p>
+    <a href="newpage6.html" class="btn-2">SUBSCRIBE</a><br>
+    <span>
+      <p class="p7">PlantParentCommunity</p>
+      <img class="k" id="i5"   src="https://cdn-icons-png.flaticon.com/128/174/174848.png">
+      <img class="k" id="i6"   src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png">
+      <img class="k" id="i7"   src="https://cdn-icons-png.flaticon.com/128/1383/1383260.png">
+    </span>
+  </footer>
+</body>
+</html>
+/*page-7*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantParentCommunity</title>
+</head>
+<style>
+    body{
+        background-color: #F2DCC5;
+    }
+    h1{
+        color:#5b6d51;
+        font-weight: bolder;
+        font-size: 100px;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .container{
+        background-color: white;
+        width: 96%;
+        height: 1000px;
+        margin: 20px 50px;
+        border: none;
+        border-radius: 5px;
+    }
+    #p1{
+        font-size: 80px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        margin-left: 100px;
+    }
+    #p2{
+        font-size: 75px;
+        color: #E45F5F;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 100px;
+    }
+    #p3{
+        font-size: 75px;
+        color: black;
+        font-weight: bolder;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 100px;
+    }
+    #femail{
+        border: 3px solid #E45F5F;
+        width: 90%;
+        height: 100px;
+        margin-left: 100px;    
+    }
+    #p4{
+        color:#E45F5F;
+        font-weight: light;
+        font-size: 60px;
+        margin-left: 100px;
+    }
+    button{
+        background-color: #5b6d51;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 100px;
+        height: 100px;
+        width: 400px;
+        font-size: 60px;
+    }
+    button:hover{
+        background-color:#F2DCC5;
+        color:black;
+        margin-left: 100px;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <a href="ASSIGNMENT.html"><h1>PlantParentCommunity &#10006;</h1></a>
+    <div class="container">
+          <p id="p1">Sign up for new from your plant community!</p>
+          <p id="p2">There are errors below</p>
+          <p id="p3">Email</p>
+          <input type="email" email="email" id="femail" >
+          <p id="p4">Please enter a value</p>
+          <button>Subscribe</button>
+    </div>
+</body>
+</html>
